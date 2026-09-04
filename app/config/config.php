@@ -88,7 +88,7 @@ $config['date_default_timezone'] = 'Asia/Manila';
 | WARNING: You MUST set this value!
 |
 */
-$config['base_url'] 				= '';
+$config['base_url'] = 'http://127.0.0.1:3000/';
 
 /*
 |--------------------------------------------------------------------------
@@ -100,6 +100,16 @@ $config['base_url'] 				= '';
 */
 $config['proxy_enabled']           = FALSE;
 
+/*
+|--------------------------------------------------------------------------
+| Index File
+|--------------------------------------------------------------------------
+|
+| If you are using mod_rewrite to remove index.php in the URL set this
+| variable to blank.
+|
+*/
+$config['index_page'] = '';
 /*
 |--------------------------------------------------------------------------
 | Error Logging Threshold
